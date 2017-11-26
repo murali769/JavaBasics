@@ -12,6 +12,10 @@ public class TestClass {
         sc.printMessage("Calling message");
         sc.printNumber(20);
 
+        MyFirstInterface mi=new MyFirstInterfaceImpl();
+        mi.printMessage("Interface");
+        mi=new SecondImpl();
+        mi.printMessage("Interface");
 
     }
 
