@@ -2,6 +2,8 @@ package com.company;
 
 public class Child extends Parent {
 
+    //method overriding
+
     @Override
     public void print() {
         System.out.println("Hi I'm in child class ");
