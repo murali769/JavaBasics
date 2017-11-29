@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Collections;
 
 public class MyFirstArray {
 
