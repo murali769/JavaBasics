@@ -27,11 +27,7 @@ public static String getSeason(int i){
     }
 }
 
-
 public static void printSeason(int a){
-
-
-
 
     if(a==1 || a==2 ||a==3){
 
@@ -62,20 +58,17 @@ public static void printSeason(int a){
         SecondProgram.printSeason(i);
 
         /*switch (i){
-
         case 1:
         case 2:
         case 3:
         System.out.println("Winter");
         break;
 
-
         case 4:
         case 5:
         case 6:
         System.out.println("Spring");
         break;
-
 
         case 7:
         case 8:
@@ -88,11 +81,7 @@ public static void printSeason(int a){
         case 12:
         System.out.println("Fall");
         break;
-
-
     }*/
-
-
     }
 
 }
