@@ -42,19 +42,12 @@ public class Linked {
         for(int i=li.size()-1;i>=0;i--){
 
             System.out.println(li.get(i));
-
         }
         List<Integer> z = add5(li);
 
         for(int i=z.size()-1;i>=0;i--){
 
             System.out.println(z.get(i) + " List "  +li.get(i));
-
-
         }
-
-
     }
-
-
 }
