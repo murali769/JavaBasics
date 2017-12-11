@@ -16,7 +16,7 @@ arr[i]=arr[i]+1;
         arr[i]=arr[i]+2;
         System.out.println(arr[i]);
     }
-}
+    }
     }
     public static void main(String[] args) {
 
