@@ -6,10 +6,12 @@ public class Swapping {
 
         int a=10;
         int b=20;
-
-        int x=a;
+        System.out.println("Before Swapping " +a);
+        System.out.println("Before Swapping " +b);
+        int x=b;
         b=a;
-        System.out.println(b);
-
+        a=x;
+        System.out.println("After Swapping " +a);
+        System.out.println("After Swapping " +b);
     }
 }

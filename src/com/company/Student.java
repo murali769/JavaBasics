@@ -27,13 +27,9 @@ public class Student {
         objCount++;
 
     }
+        public Student(String mm){
 
-
-public Student(String mm){
-
-
-}
-
+        }
     public Student(int studentid) {
         this.studentid = studentid;
         count++;
@@ -41,7 +37,6 @@ public Student(String mm){
     }
 
     public boolean isElder(){
-
 
       if(this.age>25 || isUsCitizen()){
 
@@ -55,7 +50,6 @@ public Student(String mm){
             System.out.println(count);
 
             return true;
-
         }
 
         return false;
@@ -68,12 +62,8 @@ public Student(String mm){
 
         Student st=new Student();
         System.out.println(st.age);
-
-
         return count;
 
-    }
-
-
+        }
 }
 

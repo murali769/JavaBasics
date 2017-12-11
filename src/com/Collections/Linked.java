@@ -11,7 +11,6 @@ public class Linked {
         for(Integer i:input){
 
             if(i%2==0){
-
                 count++;
             }
         }
@@ -37,7 +36,6 @@ public class Linked {
             li.add(i*5);
         }
         int c=countEven(li);
-
         System.out.println(c);
         for(int i=li.size()-1;i>=0;i--){
 

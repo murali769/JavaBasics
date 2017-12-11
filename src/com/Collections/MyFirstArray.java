@@ -20,7 +20,9 @@ public static void modify(int i){
         int[] arr=new int[i];
         for(int j=0;j<arr.length;j++){
             arr[j]=j*2;
+            System.out.println("This is "+arr[j]);
         }
+
         int c=0;
         for(int j=0;j<arr.length;j++){
             c=c+arr[j];

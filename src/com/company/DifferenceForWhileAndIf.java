@@ -4,16 +4,11 @@ import java.util.Scanner;
 
 public class DifferenceForWhileAndIf {
 
-
-
-
     public static void whileOperation(int x){
 
 
         while(x<9){
-
-
-            System.out.println("This is while loop");
+            System.out.println("This is while loop" +x);
             x++;
         }
     }
@@ -21,22 +16,14 @@ public class DifferenceForWhileAndIf {
     public  static void ifOperation(int z){
 
         if(z<9){
-            System.out.println("This is if loop");
-            z++;
-        }}
-
-        public static int addition(int a,int b){
-
-
-            int c=a+b;
-
-            return c;
-
+            System.out.println("This is if loop" +z);
+           // z++;
+        }
     }
-
-
-
-
+        public static int addition(int a,int b){
+            int c=a+b;
+            return c;
+        }
     public static void main(String[] args) {
         System.out.println("Please enter the number");
         Scanner sc =new Scanner(System.in);
@@ -49,8 +36,7 @@ public class DifferenceForWhileAndIf {
         DifferenceForWhileAndIf.ifOperation(i);
         DifferenceForWhileAndIf.whileOperation(i);
         int mn1=DifferenceForWhileAndIf.addition(8,10);
+        System.out.println(i);
         System.out.println(mn1);
-
-
     }
 }

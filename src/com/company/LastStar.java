@@ -11,13 +11,12 @@ int k=8;
 
             }
 
-            for(int j=0;j<=i;j++){
+            for(int z=0;z<=i;z++){
 
 
                 System.out.print("* ");
             }
             k=k-2;
-
             System.out.println("");
 
         }
